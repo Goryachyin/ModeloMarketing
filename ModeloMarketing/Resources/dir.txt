@@ -1,0 +1,4 @@
+password:30f659a47043f1e467ed9a49f0b25a7349bcdef9933f0a6cb147ede800644e17
+moscuro:1
+sesionActiva:1
+usuario:anubisparra
