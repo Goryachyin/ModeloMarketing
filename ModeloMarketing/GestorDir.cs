@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace ModeloMarketing
 {
+<<<<<<< HEAD
     //Veamos que tanto aguanta esta cosa con cambios de nuevo
+=======
+    //Veamos que tanto aguanta esta cosa con cambios
+    //Otro cambio desde otra compu avr que sale
+>>>>>>> 5c4b709f5098e9881110e3362a52977b181def4d
     public class GestorDir
     {
         private string rutaCompleta;
