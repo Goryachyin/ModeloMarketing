@@ -12,13 +12,17 @@ namespace ModeloMarketing
 {
     public partial class Form3_profile : Form
     {
+        int fX1 = 18, fX2 = 127, fX3 = 235;
+        int fY = 35; //incrementar 100 unidades cada fila
         public Form3_profile()
         {
             InitializeComponent();
             GestorDir dir = new GestorDir();
             string idUser = dir.buscarValorKey("usuario");
             gestorSQL gestor = new gestorSQL();
-            gestor.cargarPerfil(idUser,profile_photo,lbName,lbCarrera);
+            gestor.cargarPerfil(idUser, profile_photo, lbName, lbCarrera);
+            gestor.cargarProductosEnPerfil(idUser, groupBox1);
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -44,10 +48,15 @@ namespace ModeloMarketing
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel01_Paint(object sender, PaintEventArgs e)
         {
 
         }

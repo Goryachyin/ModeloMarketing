@@ -36,7 +36,7 @@ namespace ModeloMarketing
             }
         }
 
-      
+
 
         private void btn_InicioSesionLogin_Click(object sender, EventArgs e)
         {
@@ -45,9 +45,11 @@ namespace ModeloMarketing
             GestorDir dir = new GestorDir();
             gestorSQL log = new gestorSQL();
 
-            if (user != null && password != null) { 
+            if (user != null && password != null)
+            {
                 bool verif = log.loginGeneral(user, password);
-                if (verif) {
+                if (verif)
+                {
                     MessageBox.Show("Login exitoso");
                     dir.reescribirValor("sesionActiva", "1");
                     dir.reescribirValor("usuario", user);
@@ -91,7 +93,7 @@ namespace ModeloMarketing
             //    string valorComoCadena = valor.ToString();
 
             //    manejoTxt.EscribirTxt(direccionArchivo, valorComoCadena);
-                
+
             //}
             //else
             //{
@@ -101,40 +103,46 @@ namespace ModeloMarketing
 
 
 
-public class Encriptado
-    {
-        public static string Encriptacion(string password)
+        public class Encriptado
         {
-            try
+            public static string Encriptacion(string password)
             {
-                // Instancia donde se manda a llamar el método de encriptado
-                // En este caso, "SHA-256"
-                using (SHA256 sha256Hash = SHA256.Create())
+                try
                 {
-                    byte[] hash = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(password));
-
-                    StringBuilder stringHex = new StringBuilder();
-                    foreach (byte b in hash)
+                    // Instancia donde se manda a llamar el método de encriptado
+                    // En este caso, "SHA-256"
+                    using (SHA256 sha256Hash = SHA256.Create())
                     {
-                        string hex = b.ToString("x2");
-                        stringHex.Append(hex);
+                        byte[] hash = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(password));
+
+                        StringBuilder stringHex = new StringBuilder();
+                        foreach (byte b in hash)
+                        {
+                            string hex = b.ToString("x2");
+                            stringHex.Append(hex);
+                        }
+                        return stringHex.ToString();
                     }
-                    return stringHex.ToString();
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                    return null;
                 }
             }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-                return null;
-            }
-        }
 
             /*
         public static void Main(string[] args)
         {
             Console.WriteLine(Encriptacion("Sars#24"));
         }*/
-    }
+        }
 
-}
+        private void btn_regresar_Click(object sender, EventArgs e)
+        {
+            Form1_main form1 = new Form1_main();
+            form1.Show();
+            this.Hide();
+        }
+    }
 }

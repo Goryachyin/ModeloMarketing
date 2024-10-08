@@ -5,10 +5,13 @@ using System.Data;
 using System.Drawing;
 using System.Drawing.Text;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Google.Protobuf.WellKnownTypes;
 using MySql.Data.MySqlClient;
+using Mysqlx;
 
 namespace ModeloMarketing
 {
@@ -20,6 +23,7 @@ namespace ModeloMarketing
         static string user = "root";
         static string password = "";
         string connection = $"server={server};Database={database};User Id={user};password={password}";
+
         string default_profile = "0x89504e470d0a1a0a0000000d4948445200000080000000800806000000c33e61cb0000037f49444154785ee" +
             "d9d4b6e1c31104367ae93a3f8c0394aaed301b2b3030c51a8668b523d6ff5819a7c4d9564cff87d5dd7f5e267ac026f0018ebfdbf07078" +
             "0d9fe03c070ff01000028024733400d30da7e8ac0e1f6030000700f309b016a80d9fe730c1cee3f000000f700a319a006186d3fc7c0e1f" +
@@ -224,6 +228,138 @@ namespace ModeloMarketing
             lbNombre.Text = dataUser[1];
             lbCarrera.Text = dataUser[5];
             cargarImagen(foto,idUser);
+        }
+
+        public bool cargarProducto(byte[] imagen, string nombre, string precio, string disponibilidad,string descripcion, string categoria, string tipo, string size)
+        {
+            GestorDir gestorDir = new GestorDir();
+
+            string id_vendedor = gestorDir.buscarValorKey("usuario");
+            bool verificado = false;
+            using(MySqlConnection cn = new MySqlConnection(connection))
+            {
+                cn.Open();
+                string consulta = "INSERT INTO `producto` (`ID_PRO`, `ID_VENDEDOR`, `NOMBRE_P`, `PRECIO_P`, `DISPONIBILIDAD_P`, `DESCRIPCION_O`, `CATEGORIA_P`, `TIPO_P`, `TAMAÑO_P`, `IMAGEN_P`) " +
+                    "VALUES (NULL, @id_vendedor, @nombre, @precio, @disponibilidad, @descripcion, @categoria, @tipo, @size, @imagen)";
+                using (MySqlCommand cmd = new MySqlCommand(consulta, cn))
+                {
+                    cmd.Parameters.AddWithValue("@id_vendedor", id_vendedor);
+                    cmd.Parameters.AddWithValue("@nombre",nombre);
+                    cmd.Parameters.AddWithValue("@precio",precio );
+                    cmd.Parameters.AddWithValue("@disponibilidad", disponibilidad);
+                    cmd.Parameters.AddWithValue("descripcion", descripcion);
+                    cmd.Parameters.AddWithValue("categoria", categoria);
+                    cmd.Parameters.AddWithValue("tipo", tipo);
+                    cmd.Parameters.AddWithValue("size", size);
+                    cmd.Parameters.Add("@imagen", MySqlDbType.LongBlob).Value = imagen;
+
+                    try
+                    {
+                        //Inserción de datos
+                        int rowsAffected = cmd.ExecuteNonQuery();
+
+                        if (rowsAffected > 0)
+                        {
+                            MessageBox.Show("Datos registrados existosamente", "Registro exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            verificado = true;
+                        }
+                    }
+                    catch (MySqlException sqlex)
+                    {
+                        MessageBox.Show("Error al registrar los datos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                    }
+                }
+            }
+            return verificado;
+        }
+
+        public void cargarProductosEnPerfil(string id, GroupBox gb)
+        {
+            int numFilas = 1;
+            int coordY = 35;
+            using (MySqlConnection cn = new MySqlConnection(connection))
+            {
+                cn.Open();
+                string consulta = "SELECT `IMAGEN_P` FROM `producto` WHERE ID_VENDEDOR = @id;";
+                using(MySqlCommand cmd = new MySqlCommand(consulta,cn))
+                {
+                    cmd.Parameters.AddWithValue("@id",id);
+
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        //int[] coordenadasX = { 18, 127, 235 };
+
+                        if (reader.HasRows)
+                        {
+                            while (reader.Read())
+                            {
+
+                                if(numFilas == 1)
+                                {
+                                    intento(gb, "IMAGEN_P",  reader, 18, coordY);
+                                    ///MessageBox.Show("Imagen1");
+                                }else if(numFilas == 2)
+                                {
+                                    intento(gb, "IMAGEN_P", reader, 127,coordY);
+                                    //MessageBox.Show("Imagen2");
+                                }
+                                else if(numFilas == 3)
+                                {
+                                    intento(gb, "IMAGEN_P", reader, 235, coordY);
+                                    //MessageBox.Show("Imagen3");
+                                }
+                                else
+                                {
+                                    coordY += 100;
+                                    numFilas = 1;
+                                    //MessageBox.Show("Reset");
+                                    intento(gb, "IMAGEN_P", reader, 18, coordY);
+                                }
+                                numFilas++;
+                            }
+
+                            
+                        }
+
+
+
+                    }
+                }
+            }
+            
+        }
+
+        public void intento(GroupBox gb, string imagen, MySqlDataReader reader, int x, int y)
+        {
+            Panel panel01 = new Panel();
+            PictureBox foto1 = new PictureBox();
+
+            // 
+            // panel01
+            // 
+            panel01.BackColor = Color.FromArgb(236, 236, 236);
+            panel01.Controls.Add(foto1);
+            panel01.Location = new Point(x, y);
+            panel01.Name = "panel01";
+            panel01.Size = new Size(103, 95);
+            panel01.TabIndex = 15;
+            gb.Controls.Add(panel01);
+            // 
+            // foto1
+            // 
+            foto1.BackgroundImageLayout = ImageLayout.Zoom;
+            foto1.Location = new Point(11, 11);
+            foto1.Name = "foto1";
+            foto1.Size = new Size(80, 75);
+            foto1.TabIndex = 0;
+            foto1.TabStop = false;
+
+            byte[] imageData = (byte[])reader[imagen];
+            MemoryStream ms = new MemoryStream(imageData);
+            foto1.Image = Image.FromStream(ms);
+            foto1.SizeMode = PictureBoxSizeMode.StretchImage;
+
         }
     }
 }

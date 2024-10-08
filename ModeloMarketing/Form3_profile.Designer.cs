@@ -34,18 +34,6 @@
             label22 = new Label();
             pnl_pag01 = new Panel();
             groupBox1 = new GroupBox();
-            panel7 = new Panel();
-            pictureBox6 = new PictureBox();
-            panel6 = new Panel();
-            pictureBox5 = new PictureBox();
-            panel8 = new Panel();
-            pictureBox7 = new PictureBox();
-            panel5 = new Panel();
-            pictureBox4 = new PictureBox();
-            panel9 = new Panel();
-            pictureBox8 = new PictureBox();
-            panel01 = new Panel();
-            pictureBox3 = new PictureBox();
             gpb_perfil = new GroupBox();
             richTextBox1 = new RichTextBox();
             lbCarrera = new Label();
@@ -57,6 +45,7 @@
             panel10 = new Panel();
             label3 = new Label();
             panel2 = new Panel();
+            btnEditar = new Button();
             btn_Subir = new Button();
             button2 = new Button();
             panel1 = new Panel();
@@ -64,23 +53,9 @@
             textBox1 = new TextBox();
             label1 = new Label();
             pictureBox1 = new PictureBox();
-            btnEditar = new Button();
             panel3.SuspendLayout();
             panel12.SuspendLayout();
             pnl_pag01.SuspendLayout();
-            groupBox1.SuspendLayout();
-            panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
-            panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
-            panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
-            panel01.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             gpb_perfil.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)profile_photo).BeginInit();
             panel4.SuspendLayout();
@@ -143,12 +118,6 @@
             // 
             groupBox1.BackColor = Color.Transparent;
             groupBox1.BackgroundImage = Properties.Resources.block_fondoC;
-            groupBox1.Controls.Add(panel7);
-            groupBox1.Controls.Add(panel6);
-            groupBox1.Controls.Add(panel8);
-            groupBox1.Controls.Add(panel5);
-            groupBox1.Controls.Add(panel9);
-            groupBox1.Controls.Add(panel01);
             groupBox1.Font = new Font("Segoe UI Semibold", 12.2F, FontStyle.Bold);
             groupBox1.Location = new Point(465, 25);
             groupBox1.Name = "groupBox1";
@@ -156,120 +125,6 @@
             groupBox1.TabIndex = 17;
             groupBox1.TabStop = false;
             groupBox1.Text = "Productos";
-            // 
-            // panel7
-            // 
-            panel7.BackColor = Color.FromArgb(236, 236, 236);
-            panel7.Controls.Add(pictureBox6);
-            panel7.Location = new Point(235, 135);
-            panel7.Name = "panel7";
-            panel7.Size = new Size(103, 95);
-            panel7.TabIndex = 20;
-            // 
-            // pictureBox6
-            // 
-            pictureBox6.BackgroundImage = Properties.Resources.ramoPeluche_02;
-            pictureBox6.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox6.Location = new Point(11, 11);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(80, 75);
-            pictureBox6.TabIndex = 0;
-            pictureBox6.TabStop = false;
-            // 
-            // panel6
-            // 
-            panel6.BackColor = Color.FromArgb(236, 236, 236);
-            panel6.Controls.Add(pictureBox5);
-            panel6.Location = new Point(235, 35);
-            panel6.Name = "panel6";
-            panel6.Size = new Size(103, 95);
-            panel6.TabIndex = 17;
-            // 
-            // pictureBox5
-            // 
-            pictureBox5.BackgroundImage = Properties.Resources.ramo_03;
-            pictureBox5.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox5.Location = new Point(11, 11);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(80, 75);
-            pictureBox5.TabIndex = 0;
-            pictureBox5.TabStop = false;
-            // 
-            // panel8
-            // 
-            panel8.BackColor = Color.FromArgb(236, 236, 236);
-            panel8.Controls.Add(pictureBox7);
-            panel8.Location = new Point(127, 135);
-            panel8.Name = "panel8";
-            panel8.Size = new Size(103, 95);
-            panel8.TabIndex = 19;
-            // 
-            // pictureBox7
-            // 
-            pictureBox7.BackgroundImage = Properties.Resources.ramoPeluche_01;
-            pictureBox7.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox7.Location = new Point(11, 11);
-            pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(80, 75);
-            pictureBox7.TabIndex = 0;
-            pictureBox7.TabStop = false;
-            // 
-            // panel5
-            // 
-            panel5.BackColor = Color.FromArgb(236, 236, 236);
-            panel5.Controls.Add(pictureBox4);
-            panel5.Location = new Point(127, 35);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(103, 95);
-            panel5.TabIndex = 16;
-            // 
-            // pictureBox4
-            // 
-            pictureBox4.BackgroundImage = Properties.Resources.ramo_02;
-            pictureBox4.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox4.Location = new Point(11, 11);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(80, 75);
-            pictureBox4.TabIndex = 0;
-            pictureBox4.TabStop = false;
-            // 
-            // panel9
-            // 
-            panel9.BackColor = Color.FromArgb(236, 236, 236);
-            panel9.Controls.Add(pictureBox8);
-            panel9.Location = new Point(18, 135);
-            panel9.Name = "panel9";
-            panel9.Size = new Size(103, 95);
-            panel9.TabIndex = 18;
-            // 
-            // pictureBox8
-            // 
-            pictureBox8.BackgroundImage = Properties.Resources.ramo_04;
-            pictureBox8.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox8.Location = new Point(11, 11);
-            pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(80, 75);
-            pictureBox8.TabIndex = 0;
-            pictureBox8.TabStop = false;
-            // 
-            // panel01
-            // 
-            panel01.BackColor = Color.FromArgb(236, 236, 236);
-            panel01.Controls.Add(pictureBox3);
-            panel01.Location = new Point(18, 35);
-            panel01.Name = "panel01";
-            panel01.Size = new Size(103, 95);
-            panel01.TabIndex = 15;
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.BackgroundImage = Properties.Resources.ramo_01;
-            pictureBox3.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox3.Location = new Point(11, 11);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(80, 75);
-            pictureBox3.TabIndex = 0;
-            pictureBox3.TabStop = false;
             // 
             // gpb_perfil
             // 
@@ -395,6 +250,15 @@
             panel2.Size = new Size(155, 493);
             panel2.TabIndex = 1;
             // 
+            // btnEditar
+            // 
+            btnEditar.Location = new Point(30, 176);
+            btnEditar.Name = "btnEditar";
+            btnEditar.Size = new Size(94, 29);
+            btnEditar.TabIndex = 10;
+            btnEditar.Text = "Editar";
+            btnEditar.UseVisualStyleBackColor = true;
+            // 
             // btn_Subir
             // 
             btn_Subir.Location = new Point(33, 59);
@@ -468,15 +332,6 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-            // btnEditar
-            // 
-            btnEditar.Location = new Point(30, 176);
-            btnEditar.Name = "btnEditar";
-            btnEditar.Size = new Size(94, 29);
-            btnEditar.TabIndex = 10;
-            btnEditar.Text = "Editar";
-            btnEditar.UseVisualStyleBackColor = true;
-            // 
             // Form3_profile
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -490,19 +345,6 @@
             panel12.ResumeLayout(false);
             panel12.PerformLayout();
             pnl_pag01.ResumeLayout(false);
-            groupBox1.ResumeLayout(false);
-            panel7.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
-            panel6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            panel8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
-            panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            panel9.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
-            panel01.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             gpb_perfil.ResumeLayout(false);
             gpb_perfil.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)profile_photo).EndInit();
@@ -541,18 +383,6 @@
         private Label lbCarrera;
         private GroupBox groupBox1;
         private RichTextBox richTextBox1;
-        private Panel panel7;
-        private PictureBox pictureBox6;
-        private Panel panel6;
-        private PictureBox pictureBox5;
-        private Panel panel8;
-        private PictureBox pictureBox7;
-        private Panel panel5;
-        private PictureBox pictureBox4;
-        private Panel panel9;
-        private PictureBox pictureBox8;
-        private Panel panel01;
-        private PictureBox pictureBox3;
         private Button btn_Subir;
         private Button btnEditar;
     }

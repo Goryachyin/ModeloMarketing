@@ -35,21 +35,21 @@
             pnl_pag01 = new Panel();
             groupBox1 = new GroupBox();
             label8 = new Label();
-            checkedListBox1 = new CheckedListBox();
-            comboBox1 = new ComboBox();
+            clb_tipo = new CheckedListBox();
+            cb_size = new ComboBox();
             label7 = new Label();
             label6 = new Label();
-            checkedListBox2 = new CheckedListBox();
+            clb_categoria = new CheckedListBox();
             button6 = new Button();
             button4 = new Button();
             button5 = new Button();
             checkBox2 = new CheckBox();
             checkBox1 = new CheckBox();
-            richTextBox1 = new RichTextBox();
+            txf_descripcion = new RichTextBox();
             label5 = new Label();
-            textBox3 = new TextBox();
+            txf_precio = new TextBox();
             label4 = new Label();
-            textBox2 = new TextBox();
+            txf_nombre = new TextBox();
             label2 = new Label();
             pictureBox2 = new PictureBox();
             button1 = new Button();
@@ -125,21 +125,21 @@
             groupBox1.BackColor = Color.Transparent;
             groupBox1.BackgroundImage = Properties.Resources.block_fondoC;
             groupBox1.Controls.Add(label8);
-            groupBox1.Controls.Add(checkedListBox1);
-            groupBox1.Controls.Add(comboBox1);
+            groupBox1.Controls.Add(clb_tipo);
+            groupBox1.Controls.Add(cb_size);
             groupBox1.Controls.Add(label7);
             groupBox1.Controls.Add(label6);
-            groupBox1.Controls.Add(checkedListBox2);
+            groupBox1.Controls.Add(clb_categoria);
             groupBox1.Controls.Add(button6);
             groupBox1.Controls.Add(button4);
             groupBox1.Controls.Add(button5);
             groupBox1.Controls.Add(checkBox2);
             groupBox1.Controls.Add(checkBox1);
-            groupBox1.Controls.Add(richTextBox1);
+            groupBox1.Controls.Add(txf_descripcion);
             groupBox1.Controls.Add(label5);
-            groupBox1.Controls.Add(textBox3);
+            groupBox1.Controls.Add(txf_precio);
             groupBox1.Controls.Add(label4);
-            groupBox1.Controls.Add(textBox2);
+            groupBox1.Controls.Add(txf_nombre);
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(pictureBox2);
             groupBox1.Font = new Font("Segoe UI Semibold", 12.2F, FontStyle.Bold);
@@ -160,31 +160,31 @@
             label8.TabIndex = 32;
             label8.Text = "Tipo";
             // 
-            // checkedListBox1
+            // clb_tipo
             // 
-            checkedListBox1.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            checkedListBox1.FormattingEnabled = true;
-            checkedListBox1.Items.AddRange(new object[] { "Arreglos", "Dulceria", "Comida", "Peluches", "Papeleria", "" });
-            checkedListBox1.Location = new Point(405, 278);
-            checkedListBox1.Name = "checkedListBox1";
-            checkedListBox1.Size = new Size(141, 129);
-            checkedListBox1.TabIndex = 31;
+            clb_tipo.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            clb_tipo.FormattingEnabled = true;
+            clb_tipo.Items.AddRange(new object[] { "Arreglos", "Dulceria", "Comida", "Peluches", "Papeleria", "Servicios" });
+            clb_tipo.Location = new Point(405, 278);
+            clb_tipo.Name = "clb_tipo";
+            clb_tipo.Size = new Size(141, 129);
+            clb_tipo.TabIndex = 31;
             // 
-            // comboBox1
+            // cb_size
             // 
-            comboBox1.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Chico", "Mediano", "Grande" });
-            comboBox1.Location = new Point(552, 278);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(103, 31);
-            comboBox1.TabIndex = 30;
+            cb_size.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            cb_size.FormattingEnabled = true;
+            cb_size.Items.AddRange(new object[] { "Chico", "Mediano", "Grande" });
+            cb_size.Location = new Point(565, 278);
+            cb_size.Name = "cb_size";
+            cb_size.Size = new Size(103, 31);
+            cb_size.TabIndex = 30;
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            label7.Location = new Point(551, 250);
+            label7.Location = new Point(565, 250);
             label7.Name = "label7";
             label7.Size = new Size(70, 23);
             label7.TabIndex = 29;
@@ -200,15 +200,15 @@
             label6.TabIndex = 28;
             label6.Text = "Categoria";
             // 
-            // checkedListBox2
+            // clb_categoria
             // 
-            checkedListBox2.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            checkedListBox2.FormattingEnabled = true;
-            checkedListBox2.Items.AddRange(new object[] { "Cualquiera", "Parejas", "Familia", "Amigos", "Maestros" });
-            checkedListBox2.Location = new Point(240, 278);
-            checkedListBox2.Name = "checkedListBox2";
-            checkedListBox2.Size = new Size(141, 129);
-            checkedListBox2.TabIndex = 27;
+            clb_categoria.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            clb_categoria.FormattingEnabled = true;
+            clb_categoria.Items.AddRange(new object[] { "Cualquiera", "Parejas", "Familia", "Amigos", "Maestros" });
+            clb_categoria.Location = new Point(240, 278);
+            clb_categoria.Name = "clb_categoria";
+            clb_categoria.Size = new Size(141, 129);
+            clb_categoria.TabIndex = 27;
             // 
             // button6
             // 
@@ -262,6 +262,7 @@
             checkBox2.TabIndex = 21;
             checkBox2.Text = "Listo para entrega";
             checkBox2.UseVisualStyleBackColor = true;
+            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
             // 
             // checkBox1
             // 
@@ -273,15 +274,16 @@
             checkBox1.TabIndex = 20;
             checkBox1.Text = "Por encargo";
             checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
-            // richTextBox1
+            // txf_descripcion
             // 
-            richTextBox1.BorderStyle = BorderStyle.FixedSingle;
-            richTextBox1.Location = new Point(240, 146);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(516, 101);
-            richTextBox1.TabIndex = 19;
-            richTextBox1.Text = "";
+            txf_descripcion.BorderStyle = BorderStyle.FixedSingle;
+            txf_descripcion.Location = new Point(240, 146);
+            txf_descripcion.Name = "txf_descripcion";
+            txf_descripcion.Size = new Size(516, 101);
+            txf_descripcion.TabIndex = 19;
+            txf_descripcion.Text = "";
             // 
             // label5
             // 
@@ -293,13 +295,14 @@
             label5.TabIndex = 18;
             label5.Text = "Descripcion del producto";
             // 
-            // textBox3
+            // txf_precio
             // 
-            textBox3.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            textBox3.Location = new Point(303, 81);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(91, 30);
-            textBox3.TabIndex = 17;
+            txf_precio.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            txf_precio.Location = new Point(303, 81);
+            txf_precio.Name = "txf_precio";
+            txf_precio.Size = new Size(91, 30);
+            txf_precio.TabIndex = 17;
+            txf_precio.KeyPress += txf_precio_KeyPress;
             // 
             // label4
             // 
@@ -311,14 +314,14 @@
             label4.TabIndex = 16;
             label4.Text = "Precio";
             // 
-            // textBox2
+            // txf_nombre
             // 
-            textBox2.BorderStyle = BorderStyle.FixedSingle;
-            textBox2.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
-            textBox2.Location = new Point(413, 44);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(343, 30);
-            textBox2.TabIndex = 15;
+            txf_nombre.BorderStyle = BorderStyle.FixedSingle;
+            txf_nombre.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold);
+            txf_nombre.Location = new Point(413, 44);
+            txf_nombre.Name = "txf_nombre";
+            txf_nombre.Size = new Size(343, 30);
+            txf_nombre.TabIndex = 15;
             // 
             // label2
             // 
@@ -488,22 +491,22 @@
         private TextBox textBox1;
         private Label label1;
         private PictureBox pictureBox1;
-        private TextBox textBox3;
+        private TextBox txf_precio;
         private Label label4;
-        private TextBox textBox2;
+        private TextBox txf_nombre;
         private Label label2;
         private CheckBox checkBox1;
-        private RichTextBox richTextBox1;
+        private RichTextBox txf_descripcion;
         private Label label5;
         private CheckBox checkBox2;
         private Button button5;
         private Button button4;
         private Button button6;
-        private CheckedListBox checkedListBox2;
+        private CheckedListBox clb_categoria;
         private Label label7;
         private Label label6;
-        private ComboBox comboBox1;
-        private CheckedListBox checkedListBox1;
+        private ComboBox cb_size;
+        private CheckedListBox clb_tipo;
         private Label label8;
     }
 }

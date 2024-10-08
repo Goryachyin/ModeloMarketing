@@ -94,3 +94,4 @@ C:\Users\temo2\OneDrive\Escritorio\ModeloMarketing\ModeloMarketing\obj\Debug\net
 C:\Users\temo2\OneDrive\Escritorio\ModeloMarketing\ModeloMarketing\obj\Debug\net8.0-windows\ModeloMarketing.Form3_profile.resources
 C:\Users\temo2\OneDrive\Escritorio\ModeloMarketing\ModeloMarketing\obj\Debug\net8.0-windows\ModeloMarketing.Form4_uploadProducts.resources
 C:\Users\temo2\OneDrive\Escritorio\ModeloMarketing\ModeloMarketing\obj\Debug\net8.0-windows\ModeloMarketing.Form5_register.resources
+C:\Users\temo2\OneDrive\Escritorio\ModeloMarketing\ModeloMarketing\obj\Debug\net8.0-windows\ModeloMarketing.sourcelink.json
