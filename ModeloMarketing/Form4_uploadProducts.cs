@@ -17,14 +17,15 @@ namespace ModeloMarketing
         public Form4_uploadProducts()
         {
             InitializeComponent();
+            this.CenterToScreen();
             cb_size.DropDownStyle = ComboBoxStyle.DropDownList;
             byte[] imagenData = null;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form1_main form1 = new Form1_main();
-            form1.Show();
+            Form3_profile f3 = new Form3_profile();
+            f3.Show();
             this.Hide();
         }
 
@@ -43,7 +44,6 @@ namespace ModeloMarketing
                 MemoryStream ms = new MemoryStream(imagenData);
                 pictureBox2.Image = Image.FromStream(ms);
                 pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-
 
             }
         }

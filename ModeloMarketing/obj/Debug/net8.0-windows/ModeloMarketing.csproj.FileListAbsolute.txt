@@ -95,3 +95,11 @@ C:\Users\temo2\OneDrive\Escritorio\ModeloMarketing\ModeloMarketing\obj\Debug\net
 C:\Users\temo2\OneDrive\Escritorio\ModeloMarketing\ModeloMarketing\obj\Debug\net8.0-windows\ModeloMarketing.Form4_uploadProducts.resources
 C:\Users\temo2\OneDrive\Escritorio\ModeloMarketing\ModeloMarketing\obj\Debug\net8.0-windows\ModeloMarketing.Form5_register.resources
 C:\Users\temo2\OneDrive\Escritorio\ModeloMarketing\ModeloMarketing\obj\Debug\net8.0-windows\ModeloMarketing.sourcelink.json
+C:\Users\temo2\OneDrive\Escritorio\ModeloMarketing\ModeloMarketing\obj\Debug\net8.0-windows\ModeloMarketing.main_menu.resources
+C:\Users\temo2\OneDrive\Escritorio\ModeloMarketing\ModeloMarketing\obj\Debug\net8.0-windows\ModeloMarketing.perfil_prueba.resources
+C:\Users\temo2\OneDrive\Escritorio\ModeloMarketing\ModeloMarketing\obj\Debug\net8.0-windows\ModeloMarketing.uploadProducts_prueba.resources
+C:\Users\temo2\OneDrive\Escritorio\ModeloMarketing\ModeloMarketing\obj\Debug\net8.0-windows\ModeloMarketing.nuevaInterfaz.prueba_login.resources
+C:\Users\temo2\OneDrive\Escritorio\ModeloMarketing\ModeloMarketing\obj\Debug\net8.0-windows\ModeloMarketing.nuevaInterfaz.prueba_registro.resources
+C:\Users\temo2\OneDrive\Escritorio\ModeloMarketing\ModeloMarketing\obj\Debug\net8.0-windows\ModeloMarketing.nuevaInterfaz.carrusel.resources
+C:\Users\temo2\OneDrive\Escritorio\ModeloMarketing\ModeloMarketing\obj\Debug\net8.0-windows\CarruselProductos.Form1.resources
+C:\Users\temo2\OneDrive\Escritorio\ModeloMarketing\ModeloMarketing\obj\Debug\net8.0-windows\CarruselProductos.Form2.resources

@@ -34,6 +34,7 @@
             label22 = new Label();
             pnl_pag01 = new Panel();
             groupBox1 = new GroupBox();
+            label2 = new Label();
             gpb_perfil = new GroupBox();
             richTextBox1 = new RichTextBox();
             lbCarrera = new Label();
@@ -56,6 +57,7 @@
             panel3.SuspendLayout();
             panel12.SuspendLayout();
             pnl_pag01.SuspendLayout();
+            groupBox1.SuspendLayout();
             gpb_perfil.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)profile_photo).BeginInit();
             panel4.SuspendLayout();
@@ -118,13 +120,23 @@
             // 
             groupBox1.BackColor = Color.Transparent;
             groupBox1.BackgroundImage = Properties.Resources.block_fondoC;
+            groupBox1.Controls.Add(label2);
             groupBox1.Font = new Font("Segoe UI Semibold", 12.2F, FontStyle.Bold);
             groupBox1.Location = new Point(465, 25);
+            groupBox1.Margin = new Padding(0, 0, 0, 0);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(357, 380);
             groupBox1.TabIndex = 17;
             groupBox1.TabStop = false;
-            groupBox1.Text = "Productos";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(18, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(111, 30);
+            label2.TabIndex = 0;
+            label2.Text = "Productos";
             // 
             // gpb_perfil
             // 
@@ -345,6 +357,8 @@
             panel12.ResumeLayout(false);
             panel12.PerformLayout();
             pnl_pag01.ResumeLayout(false);
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
             gpb_perfil.ResumeLayout(false);
             gpb_perfil.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)profile_photo).EndInit();
@@ -381,9 +395,10 @@
         private Button button2;
         private Label lbName;
         private Label lbCarrera;
-        private GroupBox groupBox1;
         private RichTextBox richTextBox1;
         private Button btn_Subir;
         private Button btnEditar;
+        private GroupBox groupBox1;
+        private Label label2;
     }
 }

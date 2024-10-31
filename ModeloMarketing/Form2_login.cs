@@ -20,24 +20,6 @@ namespace ModeloMarketing
             txt_contraseña.PasswordChar = '*';
         }
 
-
-        public void EscribirTxt(string direccion, string contenido)
-        {
-            try
-            {
-                using (StreamWriter sw = new StreamWriter(direccion, false)) // 'false' para sobrescribir el archivo
-                {
-                    sw.WriteLine(contenido);
-                }
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("No se pudo escribir en el archivo: " + e.Message);
-            }
-        }
-
-
-
         private void btn_InicioSesionLogin_Click(object sender, EventArgs e)
         {
             string user = txt_usuario.Text;

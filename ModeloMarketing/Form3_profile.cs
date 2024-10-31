@@ -17,11 +17,16 @@ namespace ModeloMarketing
         public Form3_profile()
         {
             InitializeComponent();
+            Panel panelScroll = new Panel();
+            panelScroll.Dock = DockStyle.Fill;
+            panelScroll.AutoScroll = true;
+            groupBox1.Controls.Add(panelScroll);
             GestorDir dir = new GestorDir();
             string idUser = dir.buscarValorKey("usuario");
             gestorSQL gestor = new gestorSQL();
             gestor.cargarPerfil(idUser, profile_photo, lbName, lbCarrera);
-            gestor.cargarProductosEnPerfil(idUser, groupBox1);
+            gestor.cargarProductosEnPerfil(idUser, panelScroll);
+            
             
         }
 

@@ -16,6 +16,9 @@ namespace ModeloMarketing
             InitializeComponent();
             ModoOscuro();
             SesionActiva();
+            //linkLabel1.LinkBehavior = LinkBehavior.NeverUnderline;
+            //linkLabel1.BackColor = Color.Transparent;
+
         }
 
         private void btn_InicioSesion_Click(object sender, EventArgs e)
@@ -68,7 +71,7 @@ namespace ModeloMarketing
             GestorDir dir = new GestorDir();
             dir.reescribirValor("sesionActiva", "0");
             dir.reescribirValor("usuario", "");
-            dir.reescribirValor("password","");
+            dir.reescribirValor("password", "");
         }
 
         public void SesionActiva()
@@ -102,7 +105,7 @@ namespace ModeloMarketing
                     pnl_cabeza.BackgroundImage = Properties.Resources.block_fondoAO;
                     pnl_izquierda.BackgroundImage = Properties.Resources.block_fondoAO;
                     pnl_fondo.BackgroundImage = Properties.Resources.block_fondoBO;
-                    pnl_cuerpo01.BackgroundImage = Properties.Resources.block_fondoCO;
+                    pnl_carrusel.BackgroundImage = Properties.Resources.block_fondoCO;
                     pnl_cuerpo02.BackgroundImage = Properties.Resources.block_fondoCO;
 
                     btn_encabezado01.ForeColor = Color.FromArgb(255, 255, 255);
@@ -114,7 +117,6 @@ namespace ModeloMarketing
                     panel03.BackColor = Color.FromArgb(25, 25, 25);
                     panel04.BackColor = Color.FromArgb(25, 25, 25);
                     panel05.BackColor = Color.FromArgb(25, 25, 25);
-                    panel06.BackColor = Color.FromArgb(25, 25, 25);
                     pnl_panel07.BackColor = Color.FromArgb(25, 25, 25);
                     pnl_panel08.BackColor = Color.FromArgb(25, 25, 25);
                     pnl_panel09.BackColor = Color.FromArgb(25, 25, 25);
@@ -122,7 +124,7 @@ namespace ModeloMarketing
                     pnl_panel11.BackColor = Color.FromArgb(25, 25, 25);
                     pnl_panel12.BackColor = Color.FromArgb(25, 25, 25);
 
-                    pnl_cuerpo01.BackColor = Color.FromArgb(25, 0, 0);
+                    pnl_carrusel.BackColor = Color.FromArgb(25, 0, 0);
                     //checklistbox
                     clb_Filtro.BackColor = Color.FromArgb(2, 43, 125);
                     clb_Filtro.Font = new Font("Square721 BT", 9F);
@@ -140,7 +142,7 @@ namespace ModeloMarketing
                     pnl_cabeza.BackgroundImage = Properties.Resources.block_fondoA;
                     pnl_izquierda.BackgroundImage = Properties.Resources.block_fondoA;
                     pnl_fondo.BackgroundImage = Properties.Resources.block_fondoB;
-                    pnl_cuerpo01.BackgroundImage = Properties.Resources.block_fondoC;
+                    pnl_carrusel.BackgroundImage = Properties.Resources.block_fondoC;
                     pnl_cuerpo02.BackgroundImage = Properties.Resources.block_fondoC;
 
                     btn_encabezado01.ForeColor = Color.FromArgb(14, 109, 188);
@@ -153,7 +155,6 @@ namespace ModeloMarketing
                     panel03.BackColor = Color.FromArgb(236, 236, 236);
                     panel04.BackColor = Color.FromArgb(236, 236, 236);
                     panel05.BackColor = Color.FromArgb(236, 236, 236);
-                    panel06.BackColor = Color.FromArgb(236, 236, 236);
                     pnl_panel07.BackColor = Color.FromArgb(236, 236, 236);
                     pnl_panel08.BackColor = Color.FromArgb(236, 236, 236);
                     pnl_panel09.BackColor = Color.FromArgb(236, 236, 236);
@@ -209,6 +210,17 @@ namespace ModeloMarketing
         private void gpb_porfile_Enter_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            main_menu mn = new main_menu();
+            mn.Show();
         }
     }
 }

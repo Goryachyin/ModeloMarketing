@@ -274,7 +274,7 @@ namespace ModeloMarketing
             return verificado;
         }
 
-        public void cargarProductosEnPerfil(string id, GroupBox gb)
+        public void cargarProductosEnPerfil(string id, Panel gb)
         {
             int numFilas = 1;
             int coordY = 35;
@@ -330,7 +330,7 @@ namespace ModeloMarketing
             
         }
 
-        public void intento(GroupBox gb, string imagen, MySqlDataReader reader, int x, int y)
+        public void intento(Panel gb, string imagen, MySqlDataReader reader, int x, int y)
         {
             Panel panel01 = new Panel();
             PictureBox foto1 = new PictureBox();

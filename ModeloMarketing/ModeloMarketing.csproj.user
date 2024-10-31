@@ -1,6 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="nuevaInterfaz\carrusel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="nuevaInterfaz\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="nuevaInterfaz\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="nuevaInterfaz\prueba_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="nuevaInterfaz\perfil_prueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="nuevaInterfaz\main_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Form1_main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -19,5 +37,16 @@
     <Compile Update="Form6.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="nuevaInterfaz\prueba_registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="nuevaInterfaz\uploadProducts_prueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

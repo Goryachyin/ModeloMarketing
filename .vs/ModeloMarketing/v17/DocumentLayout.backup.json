@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|c:\\users\\temo2\\onedrive\\escritorio\\modelomarketing\\modelomarketing\\gestorsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|solutionrelative:modelomarketing\\gestorsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|c:\\users\\temo2\\onedrive\\escritorio\\modelomarketing\\modelomarketing\\nuevainterfaz\\main_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|solutionrelative:modelomarketing\\nuevainterfaz\\main_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|c:\\users\\temo2\\onedrive\\escritorio\\modelomarketing\\modelomarketing\\form3_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|solutionrelative:modelomarketing\\form3_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\modelomarketing\\nuevainterfaz\\main_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|solutionrelative:modelomarketing\\nuevainterfaz\\main_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|c:\\users\\temo2\\onedrive\\escritorio\\modelomarketing\\modelomarketing\\form3_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|solutionrelative:modelomarketing\\form3_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|c:\\users\\temo2\\onedrive\\escritorio\\modelomarketing\\modelomarketing\\nuevainterfaz\\uploadproducts_prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|solutionrelative:modelomarketing\\nuevainterfaz\\uploadproducts_prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|c:\\users\\temo2\\onedrive\\escritorio\\modelomarketing\\modelomarketing\\form3_profile.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|solutionrelative:modelomarketing\\form3_profile.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|c:\\users\\temo2\\onedrive\\escritorio\\modelomarketing\\modelomarketing\\nuevainterfaz\\prueba_registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|solutionrelative:modelomarketing\\nuevainterfaz\\prueba_registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|c:\\users\\temo2\\onedrive\\escritorio\\modelomarketing\\modelomarketing\\nuevainterfaz\\perfil_prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|solutionrelative:modelomarketing\\nuevainterfaz\\perfil_prueba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\modelomarketing\\nuevainterfaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|solutionrelative:modelomarketing\\nuevainterfaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\modelomarketing\\nuevainterfaz\\carrusel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|solutionrelative:modelomarketing\\nuevainterfaz\\carrusel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|c:\\users\\temo2\\onedrive\\escritorio\\modelomarketing\\modelomarketing\\nuevainterfaz\\carrusel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|solutionrelative:modelomarketing\\nuevainterfaz\\carrusel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\modelomarketing\\nuevainterfaz\\prueba_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{846666FA-CF47-4594-8FAC-4699A16993FE}|ModeloMarketing\\ModeloMarketing.csproj|solutionrelative:modelomarketing\\nuevainterfaz\\prueba_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,54 +62,109 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form3_profile.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\Form3_profile.Designer.cs",
-              "RelativeDocumentMoniker": "ModeloMarketing\\Form3_profile.Designer.cs",
-              "ToolTip": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\Form3_profile.Designer.cs",
-              "RelativeToolTip": "ModeloMarketing\\Form3_profile.Designer.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAYwIAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T06:13:16.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form3_profile.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\Form3_profile.cs",
-              "RelativeDocumentMoniker": "ModeloMarketing\\Form3_profile.cs",
-              "ToolTip": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\Form3_profile.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ModeloMarketing\\Form3_profile.cs [Dise\u00F1o]",
+              "Title": "uploadProducts_prueba.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\nuevaInterfaz\\uploadProducts_prueba.cs",
+              "RelativeDocumentMoniker": "ModeloMarketing\\nuevaInterfaz\\uploadProducts_prueba.cs",
+              "ToolTip": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\nuevaInterfaz\\uploadProducts_prueba.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ModeloMarketing\\nuevaInterfaz\\uploadProducts_prueba.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T06:06:42.611Z",
+              "WhenOpened": "2024-10-30T14:15:50.564Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form3_profile.cs",
-              "DocumentMoniker": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\Form3_profile.cs",
-              "RelativeDocumentMoniker": "ModeloMarketing\\Form3_profile.cs",
-              "ToolTip": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\Form3_profile.cs",
-              "RelativeToolTip": "ModeloMarketing\\Form3_profile.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBAAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "prueba_registro.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\nuevaInterfaz\\prueba_registro.cs",
+              "RelativeDocumentMoniker": "ModeloMarketing\\nuevaInterfaz\\prueba_registro.cs",
+              "ToolTip": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\nuevaInterfaz\\prueba_registro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ModeloMarketing\\nuevaInterfaz\\prueba_registro.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T06:02:07.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T14:15:46.724Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "perfil_prueba.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\nuevaInterfaz\\perfil_prueba.cs",
+              "RelativeDocumentMoniker": "ModeloMarketing\\nuevaInterfaz\\perfil_prueba.cs",
+              "ToolTip": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\nuevaInterfaz\\perfil_prueba.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ModeloMarketing\\nuevaInterfaz\\perfil_prueba.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:15:20.148Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "gestorSQL.cs",
-              "DocumentMoniker": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\gestorSQL.cs",
-              "RelativeDocumentMoniker": "ModeloMarketing\\gestorSQL.cs",
-              "ToolTip": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\gestorSQL.cs",
-              "RelativeToolTip": "ModeloMarketing\\gestorSQL.cs",
-              "ViewState": "AgIAAB0BAAAAAAAAAAAQwDQBAAA/AAAAAAAAAA==",
+              "Title": "main_menu.cs",
+              "DocumentMoniker": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\nuevaInterfaz\\main_menu.cs",
+              "RelativeDocumentMoniker": "ModeloMarketing\\nuevaInterfaz\\main_menu.cs",
+              "ToolTip": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\nuevaInterfaz\\main_menu.cs",
+              "RelativeToolTip": "ModeloMarketing\\nuevaInterfaz\\main_menu.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T05:13:46.428Z",
+              "WhenOpened": "2024-10-28T17:43:24.174Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main_menu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\nuevaInterfaz\\main_menu.cs",
+              "RelativeDocumentMoniker": "ModeloMarketing\\nuevaInterfaz\\main_menu.cs",
+              "ToolTip": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\nuevaInterfaz\\main_menu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ModeloMarketing\\nuevaInterfaz\\main_menu.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:43:20.786Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\nuevaInterfaz\\Form1.cs",
+              "RelativeDocumentMoniker": "ModeloMarketing\\nuevaInterfaz\\Form1.cs",
+              "ToolTip": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\nuevaInterfaz\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ModeloMarketing\\nuevaInterfaz\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:41:46.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "carrusel.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\nuevaInterfaz\\carrusel.Designer.cs",
+              "RelativeDocumentMoniker": "ModeloMarketing\\nuevaInterfaz\\carrusel.Designer.cs",
+              "ToolTip": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\nuevaInterfaz\\carrusel.Designer.cs",
+              "RelativeToolTip": "ModeloMarketing\\nuevaInterfaz\\carrusel.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:37:38.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "prueba_login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\nuevaInterfaz\\prueba_login.cs",
+              "RelativeDocumentMoniker": "ModeloMarketing\\nuevaInterfaz\\prueba_login.cs",
+              "ToolTip": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\nuevaInterfaz\\prueba_login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ModeloMarketing\\nuevaInterfaz\\prueba_login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:36:26.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "carrusel.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\nuevaInterfaz\\carrusel.cs",
+              "RelativeDocumentMoniker": "ModeloMarketing\\nuevaInterfaz\\carrusel.cs",
+              "ToolTip": "C:\\Users\\temo2\\OneDrive\\Escritorio\\ModeloMarketing\\ModeloMarketing\\nuevaInterfaz\\carrusel.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ModeloMarketing\\nuevaInterfaz\\carrusel.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:36:06.454Z"
             }
           ]
         }
